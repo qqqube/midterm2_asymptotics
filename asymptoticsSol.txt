@@ -1,0 +1,39 @@
+
+Question 1:
+
+	Worst case: Theta(M+N)
+	Best case: Theta(N)
+
+	The trick here is that j is initialized outside the loops!
+
+Question 2:
+	
+	Worst case: Theta(N^2)
+	Best case: Theta(NlogN)
+
+	We begin the execution of the funtion with a call to 'mrpoolsort(arr)',
+	which takes theta(NlogN). In the best case, we exit the function without
+	ever entering the 'for loop'. In the worst case, the function runs through 
+	the 'double for loop' entirely. 
+
+Question 3:
+	
+	Theta(1)
+	If 'a' is a multiple of 7, the function will return immediately. 
+	Otherwise, the function will recurse at most 6 calls to make 'a' a 
+	multiple of 7.
+
+Question 4:
+	
+	Theta(N) 
+	Even though f1 takes N^2 time, our calls to f1 have fixed input
+	so we consider these as having constant time. 
+
+
+Question 5:
+	
+	Theta(N^2) 
+	Each 'double for loop' takes Theta(N^2) time. 
+
+
+	
